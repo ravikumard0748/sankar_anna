@@ -1,3 +1,4 @@
 html { scroll-behavior: smooth; }
+html, body { overflow-x: hidden; }
 body { min-width: 320px; }
 ::selection { color: #fff; background: #b96545; }

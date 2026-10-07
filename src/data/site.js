@@ -9,6 +9,7 @@ export const company = {
   address: '[BUSINESS ADDRESS]',
   hours: 'Mon - Sat / 9:00 AM - 6:30 PM',
   mapUrl: 'https://maps.google.com/?q=Coimbatore',
+  mapEmbedUrl: 'https://www.google.com/maps?q=Coimbatore&output=embed',
   instagram: '#',
   facebook: '#',
   youtube: '#',

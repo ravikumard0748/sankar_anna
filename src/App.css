@@ -93,6 +93,14 @@ h1 em, h2 em { color: #c97d5e; font-weight: 500; }
 .quote-section svg { color: var(--copper); }
 .quote-section blockquote { margin: 30px 0 22px; font: italic 30px/1.35 'Playfair Display', serif; }
 .quote-section span { color: var(--muted); font-size: 10px; letter-spacing: .13em; text-transform: uppercase; }
+.home-contact { display: grid; grid-template-columns: 1.2fr .8fr; gap: 8vw; align-items: end; background: var(--white); scroll-margin-top: 110px; }
+.home-contact h2 { margin-bottom: 20px; }
+.home-contact p { max-width: 470px; color: var(--muted); font-size: 15px; line-height: 1.7; }
+.home-contact-actions { display: grid; gap: 14px; }
+.home-contact-actions > a:not(.button) { display: flex; align-items: center; gap: 10px; border-bottom: 1px solid var(--line); padding: 12px 0; color: var(--deep); font-size: 16px; }
+.home-contact-actions > a:not(.button) svg { color: var(--copper); }
+.home-contact-actions > a:nth-child(2) { justify-content: space-between; }
+.home-contact-actions .button { margin-top: 10px; }
 .page-intro { padding-top: 185px; padding-bottom: 90px; background: var(--white); }
 .page-intro h1 { font-size: clamp(55px, 7vw, 96px); margin-bottom: 28px; }
 .page-intro p { max-width: 500px; color: var(--muted); line-height: 1.75; font-size: 15px; }
@@ -169,6 +177,7 @@ input:focus, select:focus, textarea:focus { border-color: var(--copper); }
 	.hero-note { display: none; }
 	.section-pad { padding: 82px 6vw; }
 	.intro, .about-feature, .detail-feature, .contact-section { grid-template-columns: 1fr; gap: 42px; }
+	.home-contact { grid-template-columns: 1fr; gap: 35px; }
 	.intro-stamp { display: none; }
 	.intro-image { height: 350px; }
 	.intro-image span { left: 15px; }
